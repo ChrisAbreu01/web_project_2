@@ -1,0 +1,114 @@
+.header {
+    background-color: #fff;
+    background-image: url(../images/background_header.svg);
+    background-size: 100%;
+    height: 100vh;
+    min-height: 720px;
+    max-height: 800px;
+    position: relative;
+    padding: 30px 80px 40px;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    z-index: 0;
+}
+
+.header__title {
+    font-family: 'Noto Serif', times new roman, serif;
+    font-style: italic;
+    font-size: 60px;
+    line-height: 72px;
+    color: #2F80ED;
+    margin: 0;
+}
+
+.header__footer {
+    position: absolute;
+    bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.logo {
+    margin-left: 30px;
+    margin-top: 30px;
+    position: absolute;
+}
+
+.nav {
+    flex-direction: row;
+    justify-content: end;
+    display: flex;
+    position: relative;
+}
+
+.nav__links {
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+    padding: 0;
+    list-style-type: none;
+    margin: 30px 80px 0 0;
+    font-family: 'Inter', arial, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.nav__link {
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.25s ease-in-out;
+}
+
+.nav__link:hover {
+    color: #2F80ED;
+}
+
+.span-accent {
+    display: block;
+    font-family: 'Inter', arial, sans-serif;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 72px;
+    margin-top: 202px;
+    margin-bottom: 0;
+}
+
+.header__description {
+    font-family: 'Noto Serif', times new roman, serif;
+    font-size: 20px;
+    line-height: 30px;
+    z-index: 2;
+    max-width: 465px;
+    margin-top: 28px;
+}
+
+.header__paragraph {
+    font-family: 'Inter', arial, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    margin: 0;
+    display: flex;
+    position: absolute;
+    right: 0px;
+    bottom: 1px;
+}
+
+.header__hours {
+    font-family: 'Inter', arial, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    margin: 0;
+}
+
+.header__image {
+    right: 5px;
+    top: 124px;
+    max-width: 636px;
+    position: absolute;
+    z-index: -1;
+}

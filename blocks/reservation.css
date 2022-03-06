@@ -1,0 +1,109 @@
+.reservation {
+    background-color: #D9E7FF;
+    background-image: url(../images/background_reservation.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    size: cover;
+    padding: 100px 0 120px 0;
+    min-height: 720px;
+}
+
+.reservation__title {
+    text-align: center;
+    margin-bottom: 80px;
+    font-family: 'Inter', arial, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 52px;
+}
+
+.reservation__form {
+    max-width: 385px;
+    margin: 0 auto 0 auto;
+}
+
+.reservatio__form-inside {
+    padding: 0;
+    align-content: center;
+    border: none;
+}
+
+.form__input {
+    border-radius: 4px;
+    margin-bottom: 32px;
+    font-family: 'Inter', arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: #838383;
+    max-width: 385px;
+    width: 100%;
+}
+
+.form__input[type="checkbox"] {
+    border-radius: 2px;
+    min-width: 8px;
+    min-height: 8px;
+    display: block;
+    font-family: 'Inter', arial, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    margin: 0;
+    width: 17px;
+    margin: 4px 12px 0 auto;
+}
+
+.form__label {
+    margin-bottom: 8px;
+    display: block;
+    font-family: 'Inter', arial, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    width: 223px;
+}
+
+.form__button {
+    border-radius: 4px;
+    transition: opacity 0.25s ease-in-out;
+    font-family: 'Inter', arial, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    border: none;
+    width: 100%;
+    background-color: #2F80ED;
+    height: 50px;
+    padding: 0;
+    max-width: 385px;
+    color: #fff;
+}
+
+.form__button:hover {
+    opacity: 70%;
+}
+
+.form__button-area {
+    border: none;
+    padding: 0;
+    margin: 0 0 32px 0;
+}
+
+.form__checkbox {
+    padding: 0;
+    margin: 0;
+    max-width: 385px;
+    width: 100%;
+    border: none;
+    display: flex;
+}
+
+.form__label-checkbox {
+    margin: 0 auto 0 0;
+}
