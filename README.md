@@ -13,4 +13,7 @@ This is the second project of the Web Development program at Practicum by Yandex
 
 ## Plan on improving the project
 
-Add your ideas here :)
+-	1: make the website fully functional for job hunt purposes
+-	Optimize website to a good extent using different technologies 
+-	make the website customizable on demand for future requests.
+
