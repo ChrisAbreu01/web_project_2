@@ -23,13 +23,13 @@
     margin: 0 auto 0 auto;
 }
 
-.reservatio__form-inside {
+.reservatio__form_inside {
     padding: 0;
     align-content: center;
     border: none;
 }
 
-.form__input {
+.form-input {
     border-radius: 4px;
     margin-bottom: 32px;
     font-family: 'Inter', arial, sans-serif;
@@ -42,7 +42,7 @@
     width: 100%;
 }
 
-.form__input[type="checkbox"] {
+.form-input[type="checkbox"] {
     border-radius: 2px;
     min-width: 8px;
     min-height: 8px;
@@ -56,7 +56,7 @@
     margin: 4px 12px 0 auto;
 }
 
-.form__label {
+.form-label {
     margin-bottom: 8px;
     display: block;
     font-family: 'Inter', arial, sans-serif;
