@@ -67,7 +67,7 @@
     width: 223px;
 }
 
-.form__button {
+.form-button {
     border-radius: 4px;
     transition: opacity 0.25s ease-in-out;
     font-family: 'Inter', arial, sans-serif;
@@ -84,17 +84,17 @@
     color: #fff;
 }
 
-.form__button:hover {
+.form-button:hover {
     opacity: 70%;
 }
 
-.form__button-area {
+.form-button-area {
     border: none;
     padding: 0;
     margin: 0 0 32px 0;
 }
 
-.form__checkbox {
+.form-checkbox {
     padding: 0;
     margin: 0;
     max-width: 385px;
@@ -103,6 +103,6 @@
     display: flex;
 }
 
-.form__label-checkbox {
+.form-label-checkbox {
     margin: 0 auto 0 0;
 }
