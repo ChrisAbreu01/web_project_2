@@ -40,18 +40,18 @@
     align-items: center;
 }
 
-.card_1 {
+.card-1 {
     max-width: 600px;
     margin: 0 100px 0 0;
     width: 550px;
 }
 
-.card_2 {
+.card-2 {
     max-width: 600px;
     width: 550px;
 }
 
-.card_3 {
+.card-3 {
     max-width: 600px;
     margin: 100px 0 0 0;
     display: flex;
@@ -60,11 +60,11 @@
     width: 550px;
 }
 
-.top_cards {
+.cards-top {
     display: flex;
 }
 
-.card__title {
+.card-title {
     text-align: left;
     font-family: 'Inter', arial, sans-serif;
     font-style: normal;
