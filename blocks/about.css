@@ -11,7 +11,7 @@
     }
 }
 
-.about-section {
+.about {
     background-color: #0a2750;
     color: #fff;
     overflow: hidden;
@@ -22,7 +22,7 @@
     justify-content: space-around;
 }
 
-.about-title {
+.about__title {
     z-index: 1;
     margin: 100px 0 0 80px;
     width: 262px;
@@ -33,12 +33,12 @@
     line-height: 52px;
 }
 
-.about-content {
+.about__content {
     max-width: 580px;
     margin: 119px 80px 173px 0;
 }
 
-.about-paragraph {
+.about__paragraph {
     font-family: 'Noto Serif', times new roman, serif;
     font-style: normal;
     font-weight: normal;
@@ -46,7 +46,7 @@
     line-height: 30px;
 }
 
-.about-circle {
+.about__circle {
     background-color: #2f80ed;
     width: 540px;
     height: 540px;
@@ -58,7 +58,7 @@
     top: -152px;
 }
 
-.about-circle-animation-blurred {
+.about__circle-animation-blurred {
     background-color: #2f80ed;
     width: 540px;
     height: 540px;

@@ -8,12 +8,6 @@
     <meta name="description" content="Buy high-quality Specialty coffee in the Practicum Library coffee to energize you and the cozy vibes to help you get creative. .">
     <title>Practicum Coffee Shop</title>
     <link rel="stylesheet" href="./pages/index.css">
-    <link rel="stylesheet" href="./blocks/header.css">
-    <link rel="stylesheet" href="./blocks/menu.css">
-    <link rel="stylesheet" href="./blocks/recipes.css">
-    <link rel="stylesheet" href="./blocks/reservation.css">
-    <link rel="stylesheet" href="./blocks/about.css">
-    <link rel="stylesheet" href="./blocks/footer.css">
     <link rel="icon" type="image/x-icon" href="./favicon.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -35,8 +29,8 @@
                 </ul>
             </nav>
             <!--nav of the page ends here -->
-            <div class="span-accent">
-                <h1 class="header__title">Specialty coffee</h1>
+            <div class="header__title ">
+                <h1 class="span-accent">Specialty coffee</h1>
                 in the Practicum Library
             </div>
             <p class="header__description">
@@ -55,40 +49,41 @@
         </header>
         <!--menu section of the page starts here -->
         <section class="menu" id="menu">
-            <h1 class="menu__title">Menu</h1>
+            <h2 class="menu__title">Menu</h2>
             <p class="menu__subtitle">We brew coffee from locally roasted, Fairtrade certified beans and use biodegradable cups. All teas from our collection are $2/cup.</p>
-            <div class="cards">
-                <div class="cards-top">
-                    <div class="cards-1">
-                        <h3 class="cards-title">Filter</h3>
-                        <ul>
-                            <li class="list-item">Regular (12 oz)------------------------------------------$1</li>
-                            <li class="list-item">Large (16 oz)-----------------------------------------$1.25</li>
-                            <li class="list-item">XL (20 oz)-----------------------------------------------$1.5 </li>
-                            <li class="list-item">Party-size (24 oz, decaf)------------------------$1.75</li>
-                            <li class="list-item">Iced Coffee (16 oz)--------------------------------$1.25</li>
-                        </ul>
-                    </div>
-                    <div class="cards-2">
-                        <h3 class="cards-title">Espresso</h3>
-                        <ul>
-                            <li class="list-item">Macchiato------------------------------------------$2.25</li>
-                            <li class="list-item">Cortado -----------------------------------------------$2.5</li>
-                            <li class="list-item">Mocha ---------------------------------------------------$3</li>
-                            <li class="list-item">Sunrise in the Bay Area (decaf)-------------$10</li>
-                            <li class="list-item">Iced Coffee (16 oz)------------------------------$1.25</li>
-                        </ul>
-                    </div>
+            <div class="menu__cards">
+
+                <div class="card">
+                    <h3 class="card__title">Filter</h3>
+                    <ul class="card__list">
+                        <li class="card__list-item"><span class="card__list-item-name">Regular (12 oz)</span> $1</li>
+                        <li class="card__list-item"><span class="card__list-item-name">Large (16 oz)</span> $1.25</li>
+                        <li class="card__list-item"><span class="card__list-item-name">XL (20 oz)</span> $1.50</li>
+                        <li class="card__list-item"><span class="card__list-item-name">Party-size (24 oz, decaf)</span> $1.75</li>
+                        <li class="card__list-item"><span class="card__list-item-name">Iced Coffee (16 oz)</span> $1.25</li>
                 </div>
-                <div class="card-3">
-                    <h3 class="card-title">Baked Goods</h3>
-                    <ul>
-                        <li class="list-item">Almond Croissant--------------------------------------------- $2</li>
-                        <li class="list-item">Banana Bread-----------------------------------------------$1.75</li>
-                        <li class="list-item">Key Lime Pie-----------------------------------------------------$3</li>
-                        <li class="list-item">Blue Velvet Cake------------------------------------------ $3.75</li>
-                        <li class="list-item">Web Cookie-------------------------------------------------------$2</li>
-                        <li class="list-item">Fresh Bug’uette-------------------------------------------- $0.25</li>
+                <div class="card">
+                    <h3 class="card__title">Espresso</h3>
+                    <ul class="card__list">
+                        <li class="card__list-item"><span class="card__list-item-name">Macchiato</span> $2.25</li>
+                        <li class="card__list-item"><span class="card__list-item-name">Cortado</span> $2.5</li>
+                        <li class="card__list-item"><span class="card__list-item-name">Mocha</span> $3</li>
+                        <li class="card__list-item"><span class="card__list-item-name">Sunrise in the Bay Area (decaf)</span>$10</li>
+                        <li class="card__list-item"><span class="card__list-item-name">Iced Coffee (16 oz)</span>$1.25</li>
+
+                    </ul>
+
+                </div>
+
+                <div class="card">
+                    <h3 class="card__title">Baked Goods</h3>
+                    <ul class="card__list">
+                        <li class="card__list-item"><span class="card__list-item-name">Almond Croissant</span>$2.00</li>
+                        <li class="card__list-item"><span class="card__list-item-name">Banana Bread</span>$1.75</li>
+                        <li class="card__list-item"><span class="card__list-item-name">Key Lime Pie</span>$3</li>
+                        <li class="card__list-item"><span class="card__list-item-name">Blue Velvet Cake</span>$3.75</li>
+                        <li class="card__list-item"><span class="card__list-item-name">Blue Velvet Cake</span>$2</li>
+                        <li class="card__list-item"><span class="card__list-item-name">Fresh Bug’uette</span>$0.25</li>
                     </ul>
                 </div>
             </div>
@@ -96,55 +91,62 @@
         <!--menu section of the page ends here -->
         <!--recipes section of the page starts here -->
         <section class="recipes" id="recipes">
-            <h1 class="recipes__title">Recipes</h1>
+            <h2 class="recipes__title">Recipes</h2>
             <p class="recipes__subtitle">Check out some recipes we've collected for your home-brewing convenience:</p>
             <div class="recipes__videos">
-                <iframe class="recipes__iframe" width="560" height="315" src="https://www.youtube.com/embed/btfvUNYFNC0" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <iframe class="recipes__iframe" width="560" height="315" src="https://www.youtube.com/embed/tBTNMo77h2Q" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <div>
+                    <iframe class="recipes__iframe" width="560" height="315" src="https://www.youtube.com/embed/btfvUNYFNC0" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <div class="video-caption-area">
+                        <p>The ultimate apple pie recipe</p>
+                        <p>16:27 min</p>
+                    </div>
+
+                </div>
+                <div>
+                    <iframe class="recipes__iframe" width="560" height="315" src="https://www.youtube.com/embed/tBTNMo77h2Q" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <div class="video-caption-area">
+                        <p>Fluffy and delicious japanese street food</p>
+                        <p>4:22 min</p>
+                    </div>
+                </div>
             </div>
-            <ul class="iframe-caption" id="video_caption-1">
-                <li>The ultimate apple pie recipe</li>
-                <li class="recipes__li-separator-1">16:27 min</li>
-                <li class="recipes__li-separator-3">Fluffy and delicious japanese street food</li>
-                <li class="recipes__li-separator-2">4:22 min</li>
-            </ul>
         </section>
         <!--recipes section of the page ends here -->
         <!--reservation section of the page starts here -->
         <section class="reservation" id="reservation">
-            <h1 class="reservation__title">Book a table</h1>
-            <form class="reservation__form">
-                <fieldset class="reservatio-form-inside">
-                    <label for="name" class="form-label">Name</label>
-                    <input type="text" class="form-input" id="name" placeholder="Name Surname">
-                    <label for="guests" class="form-label">Number of guests</label>
-                    <input type="number" class="form-input" id="guests" placeholder="1-8">
-                    <label for="date" class="form-label">Date & time</label>
-                    <input type="date" class="form-input" id="date">
-                    <label for="email" class="form-label">Your email</label>
-                    <input type="email" class="form-input" id="email" placeholder="email@email.com">
+            <h2 class="reservation__title">Book a table</h2>
+            <form class="form">
+                <fieldset class="form__fieldset">
+                    <label for="name" class="form__label">Name</label>
+                    <input type="text" class="form__input" id="name" placeholder="Name Surname">
+                    <label for="guests" class="form__label">Number of guests</label>
+                    <input type="number" class="form__input" id="guests" placeholder="1-8">
+                    <label for="date" class="form__label">Date & time</label>
+                    <input type="date" class="form__input" id="date">
+                    <label for="email" class="form__label">Your email</label>
+                    <input type="email" class="form__input" id="email" placeholder="email@email.com">
 
                 </fieldset>
-                <fieldset class="form-button-area">
-                    <button type="submit" class="form-button">Book a table</button>
+                <fieldset class="form__button-area">
+                    <button type="submit" class="form__button">Book a table</button>
                 </fieldset>
-                <fieldset class="form-checkbox">
-                    <input type="checkbox" class="form-input" name="terms" id="terms" />
-                    <label for="terms" class="form-label-checkbox">I agree with the terms of use</label>
+                <fieldset class="form__checkbox">
+                    <input type="checkbox" class="form__input" name="terms" id="terms" />
+                    <label for="terms" class="form__label-checkbox">I agree with the terms of use</label>
                 </fieldset>
             </form>
         </section>
         <!--reservation section of the page ends here -->
         <!--about section of the page starts here -->
-        <section class="about-section" id="about">
-            <h1 class="about-title">About the coffee shop</h1>
-            <div class="about-content">
-                <p class="about-paragraph">Our coffee shop is located in the Practicum Library's hall. It features 6 tables and free WiFi.</p>
-                <p class="about-paragraph">Our main mission is keeping guests cozy and energized.</p>
-                <p class="about-paragraph">Besides that, we try to reduce our environmental impact — so we don't sell single-use cups. But you can buy one of our reusable cups!</p>
+        <section class="about" id="about">
+            <h2 class="about__title">About the coffee shop</h2>
+            <div class="about__content">
+                <p class="about__paragraph">Our coffee shop is located in the Practicum Library's hall. It features 6 tables and free WiFi.</p>
+                <p class="about__paragraph">Our main mission is keeping guests cozy and energized.</p>
+                <p class="about__paragraph">Besides that, we try to reduce our environmental impact — so we don't sell single-use cups. But you can buy one of our reusable cups!</p>
             </div>
-            <div class="about-circle"></div>
-            <div class="about-circle-animation-blurred"></div>
+            <div class="about__circle"></div>
+            <div class="about__circle-animation-blurred"></div>
         </section>
         <!--about section of the page ends here -->
         <!--footer section of the page starts here -->
