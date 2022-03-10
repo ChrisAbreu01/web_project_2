@@ -60,8 +60,6 @@
     justify-content: flex-end;
 }
 
-
-}
 .header__hours {
     font-family: 'Inter', arial, sans-serif;
     font-weight: 500;
@@ -69,6 +67,7 @@
     line-height: 20px;
     margin: 0;
 }
+
 .header__image {
     right: 5px;
     top: 124px;
