@@ -1,6 +1,6 @@
 .form {
     max-width: 385px;
-    margin: 0 auto 0 auto;
+    margin: 0 auto;
 }
 
 .form__fieldset {
@@ -20,6 +20,8 @@
     color: #838383;
     max-width: 385px;
     width: 100%;
+    padding: 0 0 0 13px;
+    height: 60px;
 }
 
 .form__input[type="checkbox"] {
@@ -33,7 +35,7 @@
     font-size: 16px;
     line-height: 20px;
     width: 17px;
-    margin: 4px 12px 0 auto;
+    margin: -19px 12px 0 auto;
 }
 
 .form__label {
@@ -58,7 +60,7 @@
     border: none;
     width: 100%;
     background-color: #2F80ED;
-    height: 50px;
+    height: 60px;
     padding: 0;
     max-width: 385px;
     color: #fff;
@@ -68,13 +70,13 @@
     opacity: 70%;
 }
 
-.form__button-area {
+.form__fieldset-button-area {
     border: none;
     padding: 0;
     margin: 0 0 32px 0;
 }
 
-.form__checkbox {
+.form__fieldset-checkbox {
     padding: 0;
     margin: 0;
     max-width: 385px;

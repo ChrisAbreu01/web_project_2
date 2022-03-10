@@ -3,14 +3,14 @@
     background-image: url(../images/background_reservation.svg);
     background-position: center;
     background-repeat: no-repeat;
-    size: cover;
+    background-size: cover;
     padding: 100px 0 120px 0;
     min-height: 720px;
 }
 
 .reservation__title {
     text-align: center;
-    margin-bottom: 80px;
+    margin: 0 0 80px 0;
     font-family: 'Inter', arial, sans-serif;
     font-style: normal;
     font-weight: 500;
