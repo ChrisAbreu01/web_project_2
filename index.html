@@ -37,12 +37,12 @@
             </p>
             <img src="./images/inside_coffee_shop.png" alt="Illustration 'Inside the library'" class="header__image" />
             <div class="header__footer">
-                <div class="header__paragraph">
-                    <p class="header__paragraph">Hours:</p>
-                    <p class="header__paragraph">Monday – Friday (10:00 – 19:00)</p>
-                    <p class="header__paragraph">Saturday – Sunday (11:00 – 18:00)</p>
+                <div class="header__footer-content">
+                    <p class="header__footer-element">Hours:</p>
+                    <p class="header__footer-element">Monday – Friday (10:00 – 19:00)</p>
+                    <p class="header__footer-element">Saturday – Sunday (11:00 – 18:00)</p>
                 </div>
-                <p class="header__paragraph ">200 Success Avenue, The Town of Practicum</p>
+                <p class="header__footer-element">200 Success Avenue, The Town of Practicum</p>
 
             </div>
         </header>
@@ -98,7 +98,7 @@
             <h2 class="recipes__title">Recipes</h2>
             <p class="recipes__subtitle">Check out some recipes we've collected for your home-brewing convenience:</p>
             <div class="recipes__videos">
-                <div class="recipes__iframe">
+                <div class="recipes__video-area">
                     <iframe class="recipes__iframe" src="https://www.youtube.com/embed/btfvUNYFNC0" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     <div class="video-caption-area">
                         <p class="video-caption"> <span>The ultimate apple pie recipe</span>
@@ -107,7 +107,7 @@
                     </div>
 
                 </div>
-                <div class="recipes__iframe">
+                <div class="recipes__video-area">
                     <iframe class="recipes__iframe" src="https://www.youtube.com/embed/tBTNMo77h2Q" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     <div class="video-caption-area">
                         <p class="video-caption">
@@ -137,8 +137,8 @@
                 <fieldset class="form__fieldset-button-area">
                     <button type="submit" class="form__button">Book a table</button>
                 </fieldset>
-                <fieldset class="form__fieldset-checkbox">
-                    <input type="checkbox" class="form__input" name="terms" id="terms" />
+                <fieldset class="form__fieldset" type="checkbox">
+                    <input type="checkbox" class="form__input" name="terms" id="terms" required>
                     <label for="terms" class="form__label-checkbox">I agree with the terms of use</label>
                 </fieldset>
             </form>

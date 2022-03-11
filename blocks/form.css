@@ -19,7 +19,7 @@
     line-height: 30px;
     color: #838383;
     max-width: 385px;
-    width: 100%;
+    width: 96%;
     padding: 0 0 0 13px;
     height: 60px;
 }
@@ -76,7 +76,7 @@
     margin: 0 0 32px 0;
 }
 
-.form__fieldset-checkbox {
+.form__fieldset[type="checkbox"] {
     padding: 0;
     margin: 0;
     max-width: 385px;
