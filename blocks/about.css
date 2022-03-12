@@ -35,7 +35,9 @@
 
 .about__content {
     max-width: 580px;
-    margin: 119px 80px 153px 0;
+    margin: 119px 80px 153px auto;
+    display: flex;
+    flex-direction: column;
 }
 
 .about__paragraph {
@@ -61,8 +63,8 @@
 
 .about__circle-animation-blurred {
     background-color: #2f80ed;
-    width: 540px;
-    height: 540px;
+    width: 426px;
+    height: 426px;
     border-radius: 50%;
     z-index: 0;
     display: flex;
