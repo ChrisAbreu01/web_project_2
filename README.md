@@ -1,6 +1,8 @@
 # Practicum Coffee Shop
 
-This is the second project of the Web Development program at Practicum by Yandex. It was created using HTML and CSS, based on the design brief.
+Basic landing page for a coffee shop created with HTML and CSS. 
+
+## Project Live  [Here](https://chrisabreu01.github.io/web_project_2/)
 
 ## Project features
 
